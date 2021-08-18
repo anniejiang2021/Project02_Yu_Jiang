@@ -1,0 +1,113 @@
+*,*::before,*::after {margin: 0;padding: 0;box-sizing: border-box;}
+
+
+body{font-family:Arial, Helvetica, sans-serif ;text-align: center;line-height: 1.5;
+background-color: #dcdcdc;}
+main {margin: 100px;}
+header {margin-left:auto;margin-right:auto;}
+
+img.larger {width:8%;text-align: center;}
+img.footer-logo {width: 3%;}
+img.socials {width: 1%;}
+
+
+
+
+
+.nav-bar {background-color: grey;display: flex;justify-content: space-between;
+padding:1rem 2rem}
+.header-logo {width: 5%;}
+footer {background-color: grey ;text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+height: 100px;padding-top: 20px;padding-bottom: 20px;
+display: flex;}
+.socials { justify-content: space-between; padding :5px;
+}
+.socials img {width: 1%;margin-inline: 10px;}
+
+nav a{color: white;text-decoration: none;
+    padding-left: 10px;
+padding-right: 10px;}
+nav ul {list-style-type: none;}
+nav ul li {display: inline;margin: left 2rem ;
+    padding-right: 20px;}
+
+contact details {text-align: center;}
+
+
+
+
+
+
+.cards {display: flex;justify-content: center;} 
+.card { flex:none;color:white;background-color:lightgrey; margin-bottom: 25px;width: 25%;margin:10px;
+padding: 50px;text-align: center; }
+.card h3 {margin-top: 10px;margin-bottom: 10px;}
+p {font-size:20px;}
+.card img {width: 30%;}
+.hero-img { height: 800px;padding: 5px ;width: 100%;
+background-image: url(Assets/mr_coffee_salle.jpg);
+display: block;margin-left: auto;margin-right: auto;
+background-size:contain;
+background-repeat: no-repeat;
+background-position: top;}
+
+.open-details {display: flex;justify-content: center;margin: 0px;}
+
+.open-details p {font-size: 25px;
+    justify-content: center;}
+.open-detail {width: 850px;white-space: pre-line;font-size: 30px;}
+.to-contact {text-align: center;margin-top: 5%;margin-bottom:5%;}
+
+
+
+.products {display:flex;justify-content: center;}
+.products h1 h2 {font-size: 40px;}
+.product {flex: none;text-align:left;margin-left:auto;margin-right:auto;}
+.text {width:50%; font-size: 30px;padding-left: 60px;padding-bottom: 30px} 
+.img {width:45%;text-align: center;padding-left: 50px;}
+.product img {width:70%;margin-top: 50px;}
+
+
+
+
+.about-detail {white-space: pre-line;font-size: 20px;margin-left: 100px;}
+h1.about-detail {font-size: 40px;}
+h2.about-detail {font-size: 40px;}
+
+.contacts {width:80%;margin-left: auto;margin-right: auto;}
+.contact-page h1{font-size: 40px;}
+
+p.contacts {white-space: pre-line;}
+.contact {text-align: left;align-content: center;
+margin-left: auto;margin-right: auto;width: 100%;}
+.contact img {width: 100%;}
+.contact text {font-size: 40px;}
+
+
+
+
+.home-page h1{font-size: 50px;color: white;margin-top: 50px;}
+.home-page h2 {font-size: 50px;font-weight: bold;text-align: center;line-height: 120%;margin-top: 50px;margin-bottom: 20px;}
+.home-page button {background-color: grey;color: white;width:300px;height: 80px;margin: 20px ;font-size: 20px;}
+
+.home-page h4{font-size:50px;font-weight: bold;text-align: center;margin-top: 50px;margin-bottom: 50px;}
+.openhours {text-align: left;font-size: 25px;}
+.openhours img {width:3%; margin-left: 200px;margin-right:50px;}
+
+
+
+@media screen and (max-width:768px) {
+    html {font-size: 12px;}
+    .cards {flex-direction: column;align-items: center;}
+    .card {margin-left:0px;margin-right:0px ;width:100%;}
+    .products {flex-direction: column;align-items:center}
+.product {margin-left:0px;margin-right:0px ;width:100%;}
+
+
+}
+@media screen and (max-width:400px) {
+    .card img {width: 100%;}
+    
+}
