@@ -2,7 +2,7 @@
 
 
 body{font-family:Arial, Helvetica, sans-serif ;text-align: center;line-height: 1.5;
-background-color: #dcdcdc;}
+background-color:rgb(246, 246, 246)}
 main {margin: 100px;}
 header {margin-left:auto;margin-right:auto;}
 
@@ -79,7 +79,7 @@ h2.about-detail {font-size: 40px;}
 .contacts {width:80%;margin-left: auto;margin-right: auto;}
 .contact-page h1{font-size: 40px;}
 
-p.contacts {white-space: pre-line;}
+.contacts p {white-space: pre-line;}
 .contact {text-align: left;align-content: center;
 margin-left: auto;margin-right: auto;width: 100%;}
 .contact img {width: 100%;}
@@ -111,3 +111,37 @@ margin-left: auto;margin-right: auto;width: 100%;}
     .card img {width: 100%;}
     
 }
+.contact-form.form-group {
+    margin-left: auto;margin-right: auto;width: 90%;line-height: 30px;padding: 10px;line-height: 2;}
+.form h2 {font-size: 40px;text-align: center;margin-bottom: 50px;}
+form label {font-size: 40px;display: block;text-align: left;margin-left:auto;margin-right:auto}
+form input {font-size: 60px;background-color:lightgrey;width:60%}
+#message{font-size: 30px;width: 60%;height: 200px;background-color:lightgrey;}
+#submit{    width: 30%;height: 50px;font-size: 20px;font-weight: bold;
+    background-color: rgb(109, 113, 117);color: whitesmoke; border-radius: 10px;
+    margin-top: 100px;margin-bottom:100px;padding: 10px;;}
+/*class notes*/
+/*.modal {background-color: white;display: none;
+position: fixed;width: 75vw;max-height: 80vh;display: flex;
+flex-direction: column;align-items: center;justify-content: center;
+box-shadow: 5px 5px 15px ;
+border-radius: 15px;margin:25vh 12.5vw;padding: 20px;text-align: center;overflow: scroll;pointer-events: all;}
+
+.modal > *{margin: 20px 0;}
+
+#close-modal {padding: 15px;text-transform: uppercase;border: none;background-color: darkcyan;
+color: #fff;border-radius: 15px;}
+
+.modal.hidden {display: none;}
+body.modal-active {width: 100vw;height: 100vh;overflow: hidden;pointer-events: none;}
+
+.overlay{width: 100vw;height: 100vh;position: fixed;background-color:rgb(175, 170, 170);}
+
+/*my own work*/
+.modal img {width: 10%;height: 100px;margin-top: 50px;margin-right: 50px;}
+.modal h2 {white-space: pre-line;font-size: 30px;font-weight: bold;}
+.modal p {white-space: pre-line;font-size: 20px;font-weight:bold;}
+.modal button {width: 15%;height: 50px;font-size: 20px;font-weight: bold;
+background-color: rgb(109, 113, 117);color: whitesmoke; border-radius: 10px;
+margin-top: 50px;}
+.popup {display: flex;justify-content: center;text-align: center;}
